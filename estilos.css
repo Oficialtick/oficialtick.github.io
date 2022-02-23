@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body{
+    background-color: #DAA520;
+    margin: 0;
+}
+
+header > h1 {
+text-transform: uppercase;
+text-align: center;
+font-size: 2.5rem;
+}
+
+header > div{
+    display: inline-block;
+    width: 300px;
+}
+
+img{
+    border-radius: 50%;
+}
+.secao{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+.secao > h3{
+
+    text-align: center;
+    font-size: 1.5rem;
+    color: #DAA520;
+}
+
+#idiomas table{
+    width: 100%;
+}
+
+#idiomas table > thead > tr{
+    background-color: white;
+    color: black;
+}
+
+#idiomas table > tbody > tr > td{
+    text-align: center;
+}
+
+#idiomas table > tbody > tr:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.margem{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dados{
+    font-family: "arial ";
+    align-items: center;
+    text-align: justify;
+    padding: 10px 30px;
+    margin: 1px 0;
+    border-radius: 10px;
+}
+
+
